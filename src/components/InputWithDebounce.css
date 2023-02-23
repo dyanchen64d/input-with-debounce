@@ -1,0 +1,26 @@
+.input-wrapper {
+  position: relative;
+}
+
+.input-wrapper.is-loading:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid red;
+  border-color: red transparent red transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
