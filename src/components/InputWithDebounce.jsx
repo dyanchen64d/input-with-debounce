@@ -26,8 +26,8 @@ const InputWithDebounce = () => {
 
   return (
     <>
-      <label htmlFor="no-debounce">Input with debounce</label>
-      <input type="text" name="no-debounce" onChange={handler} />
+      <label htmlFor="with-debounce">Input with debounce</label>
+      <input type="text" name="with-debounce" onChange={handler} />
       <div>{value}</div>
     </>
   );
