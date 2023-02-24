@@ -12,7 +12,7 @@ const InputUseDebounce = () => {
 
   return (
     <>
-      <label htmlFor="use-debounce">Input without debounce</label>
+      <label htmlFor="use-debounce">Input useDebounce</label>
       <input type="text" name="use-debounce" onChange={handler} />
       <div>{value}</div>
     </>
